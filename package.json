@@ -8,6 +8,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "build": "tsc",
     "postinstall": "husky install",
     "prettier": "prettier --write ."
   },
@@ -18,6 +19,7 @@
     "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
     "pinst": "^2.1.6",
-    "prettier": "^2.3.0"
+    "prettier": "^2.3.0",
+    "typescript": "^4.2.4"
   }
 }
