@@ -1,0 +1,10 @@
+{
+  "name": "gatsby-source-bgg",
+  "version": "0.1.0",
+  "description": "Source plugin for pulling content from BoardGameGeek",
+  "main": "index.js",
+  "repository": "https://github.com/TommasoAmici/gatsby-source-bgg",
+  "author": "Tommaso Amici",
+  "license": "MIT",
+  "private": true
+}
