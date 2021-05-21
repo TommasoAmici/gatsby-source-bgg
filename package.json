@@ -2,12 +2,25 @@
   "name": "gatsby-source-bgg",
   "version": "0.1.0",
   "description": "Source plugin for pulling content from BoardGameGeek",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "repository": "https://github.com/TommasoAmici/gatsby-source-bgg",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "BoardGameGeek"
+  ],
   "author": "Tommaso Amici",
   "license": "MIT",
-  "private": true,
+  "private": false,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "homepage": "https://github.com/TommasoAmici/gatsby-source-bgg#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TommasoAmici/gatsby-source-bgg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TommasoAmici/gatsby-source-bgg/issues",
+    "email": "me@tommasoamici.com"
+  },
   "scripts": {
     "build": "tsc",
     "test": "jest --passWithNoTests",
