@@ -10,7 +10,7 @@
   "private": true,
   "scripts": {
     "build": "tsc",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "postinstall": "husky install",
     "prettier": "prettier --write ."
   },
