@@ -1,7 +1,7 @@
 {
   "name": "gatsby-source-bgg",
-  "version": "0.1.0",
-  "description": "Source plugin for pulling content from BoardGameGeek",
+  "version": "1.0.0",
+  "description": "Source plugin for pulling game collections from BoardGameGeek",
   "keywords": [
     "gatsby",
     "gatsby-plugin",
@@ -9,7 +9,6 @@
   ],
   "author": "Tommaso Amici",
   "license": "MIT",
-  "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "homepage": "https://github.com/TommasoAmici/gatsby-source-bgg#readme",
@@ -33,6 +32,7 @@
   "devDependencies": {
     "@types/jest": "^26.0.23",
     "@types/node": "^14.17.0",
+    "@types/node-fetch": "^2.5.10",
     "husky": "^6.0.0",
     "jest": "^26.6.3",
     "lint-staged": "^11.0.0",
@@ -41,7 +41,15 @@
     "ts-jest": "^26.5.6",
     "typescript": "^4.2.4"
   },
+  "dependencies": {
+    "fast-xml-parser": "^3.19.0",
+    "gatsby-source-filesystem": "^3.5.0",
+    "node-fetch": "^2.6.1"
+  },
   "engines": {
     "node": ">=12.13.0"
+  },
+  "peerDependencies": {
+    "gatsby": "*"
   }
 }
