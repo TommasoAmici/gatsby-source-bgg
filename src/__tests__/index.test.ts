@@ -10,7 +10,7 @@ import {
   suggestedAgePoll,
   suggestedNumPlayersPoll,
   thing,
-} from "./fixtures";
+} from "./fixtures.test";
 
 test("processData returns an empty list if empty input", () => {
   expect(processData([])).toStrictEqual([]);

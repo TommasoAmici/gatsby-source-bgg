@@ -4,7 +4,7 @@ import {
   processSuggestedAgePoll,
   processSuggestedNumPlayersPoll,
 } from "../polls";
-import { languageDependencePoll, suggestedAgePoll, suggestedNumPlayersPoll } from "./fixtures";
+import { languageDependencePoll, suggestedAgePoll, suggestedNumPlayersPoll } from "./fixtures.test";
 
 test("processSuggestedAgePoll returns 0s if poll is undefined", () => {
   expect(processSuggestedAgePoll(undefined)).toStrictEqual({
