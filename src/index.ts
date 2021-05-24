@@ -1,11 +1,11 @@
 import parser from "fast-xml-parser";
 import fetch from "node-fetch";
-import { URLSearchParams } from "url";
 import {
   processLanguageDependencePoll,
   processSuggestedAgePoll,
   processSuggestedNumPlayersPoll,
 } from "./polls";
+import { sleep, urlParamsFromObject } from "./utils";
 
 /**
  * Utility function to query the BGG API without repeating the base URL all the time
@@ -14,14 +14,7 @@ import {
  */
 const fetchWrapper = (url: string) => fetch(`https://api.geekdo.com/xmlapi2${url}`);
 
-/**
- * A simple sleep function to insert delays in code execution.
- * This is used between API calls when needed.
- * @param ms how many milliseconds you want to sleep
- */
-const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
-
-const processData = (
+export const processData = (
   data: { collection: IAPICollection; thing: IAPIThing | undefined }[]
 ): ICollection[] => {
   return data.map(d => {
@@ -67,19 +60,6 @@ const processData = (
       languageDependence: processLanguageDependencePoll(languageDependencePoll),
     };
   });
-};
-
-/**
- * Creates URL encoded query string from object containing parameters
- * @param params object containing query parameters
- * @returns URL encoded query string
- */
-const urlParamsFromObject = (params: ICollectionParams | IThingParams) => {
-  const urlParams = new URLSearchParams();
-  for (const property in params) {
-    urlParams.append(property, String(params[property]));
-  }
-  return urlParams.toString();
 };
 
 const fetchThings = async (
