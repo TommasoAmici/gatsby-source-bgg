@@ -1,6 +1,6 @@
 {
   "name": "gatsby-source-bgg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Source plugin for pulling game collections from BoardGameGeek",
   "keywords": [
     "gatsby",
@@ -23,8 +23,10 @@
   "scripts": {
     "build": "tsc",
     "test": "jest --passWithNoTests",
+    "format": "prettier --write .",
     "postinstall": "husky install",
-    "format": "prettier --write ."
+    "prepublishOnly": "pinst --disable",
+    "postpublish": "pinst --enable"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,md,html,css,yml,json}": "prettier --write"
