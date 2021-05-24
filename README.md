@@ -11,9 +11,7 @@ It creates links between entry types and assets (e.g. cover images) so they can 
 
 ## At a glance
 
-<img src="https://img.shields.io/bundlephobia/minzip/gatsby-source-bgg" alt="Minzipped bundle size">
-<img src="https://img.shields.io/npm/v/gatsby-source-bgg" alt="npm version">
-<img src="https://codecov.io/gh/TommasoAmici/gatsby-source-bgg/branch/main/graph/badge.svg?token=747LULM62Z" alt="Test coverage">
+<img src="https://img.shields.io/bundlephobia/minzip/gatsby-source-bgg" alt="Minzipped bundle size"> <img src="https://img.shields.io/npm/v/gatsby-source-bgg" alt="npm version"> <img src="https://codecov.io/gh/TommasoAmici/gatsby-source-bgg/branch/main/graph/badge.svg?token=747LULM62Z" alt="Test coverage">
 
 ## Getting started
 
