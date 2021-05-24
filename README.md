@@ -36,7 +36,7 @@ module.exports = {
 };
 ```
 
-You will then be able to query the games as usuale with GraphQL queries, e.g.
+You will then be able to query the games as usual with GraphQL queries, e.g.
 
 ```graphql
 query GamesList {
