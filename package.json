@@ -7,19 +7,19 @@
     "gatsby-plugin",
     "BoardGameGeek"
   ],
-  "author": "Tommaso Amici",
-  "license": "MIT",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
   "homepage": "https://github.com/TommasoAmici/gatsby-source-bgg#readme",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/TommasoAmici/gatsby-source-bgg.git"
-  },
   "bugs": {
     "url": "https://github.com/TommasoAmici/gatsby-source-bgg/issues",
     "email": "me@tommasoamici.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TommasoAmici/gatsby-source-bgg.git"
+  },
+  "license": "MIT",
+  "author": "Tommaso Amici",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "jest --passWithNoTests",
@@ -30,6 +30,11 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,md,html,css,yml,json}": "prettier --write"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^3.19.0",
+    "gatsby-source-filesystem": "^3.5.0",
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {
     "@types/jest": "^26.0.23",
@@ -43,15 +48,10 @@
     "ts-jest": "^26.5.6",
     "typescript": "^4.2.4"
   },
-  "dependencies": {
-    "fast-xml-parser": "^3.19.0",
-    "gatsby-source-filesystem": "^3.5.0",
-    "node-fetch": "^2.6.1"
+  "peerDependencies": {
+    "gatsby": "*"
   },
   "engines": {
     "node": ">=12.13.0"
-  },
-  "peerDependencies": {
-    "gatsby": "*"
   }
 }
