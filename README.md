@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/tommasoamici/gatsby-source-bgg/main/.github/readme/gatsby-logo.svg" alt="Gatsby">
+  <img src="https://raw.githubusercontent.com/tommasoamici/gatsby-source-bgg/main/.github/readme/plus.svg" alt="+">
+  <img src="https://raw.githubusercontent.com/tommasoamici/gatsby-source-bgg/main/.github/readme/bgg-logo.svg" alt="BoardGameGeek">
+</p>
+
 # gatsby-source-bgg
 
 Source plugin for pulling game collections from BoardGameGeek into Gatsby.
