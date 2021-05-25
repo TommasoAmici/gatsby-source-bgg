@@ -25,7 +25,7 @@ export const processData = (
       objectType: d.collection.objecttype,
       subType: d.collection.subtype,
       collID: d.collection.collid,
-      description: d.thing?.description,
+      description: d.thing?.description.replace(/&amp;#10;/g, "\n"),
       minPlayers: d.thing?.minplayers.value,
       maxPlayers: d.thing?.maxplayers.value,
       playingTime: d.thing?.playingtime.value,

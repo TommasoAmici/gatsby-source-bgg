@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- `&amp;#10;` in descriptions are now replaced with newlines
+
 ### Fixed
 
 - An error would occur if only one item was in a collection
