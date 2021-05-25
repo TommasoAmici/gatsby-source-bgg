@@ -7,13 +7,6 @@ import {
 } from "./polls";
 import { sleep, urlParamsFromObject } from "./utils";
 
-/**
- * Utility function to query the BGG API without repeating the base URL all the time
- * @param url endpoint of the BGG API you want to fetch
- * @returns Promise<Response>
- */
-const fetchWrapper = (url: string) => fetch(`https://api.geekdo.com/xmlapi2${url}`);
-
 export const processData = (
   data: { collection: IAPICollection; thing: IAPIThing | undefined }[]
 ): ICollection[] => {
@@ -70,19 +63,27 @@ const fetchThings = async (
     videos: 0,
     page: 1,
   };
-  const response = await fetchWrapper(`/thing?${urlParamsFromObject(params)}`);
+  const response = await fetch(
+    `https://api.geekdo.com/xmlapi2/thing?${urlParamsFromObject(params)}`
+  );
   if (response.status !== 200) {
-    throw `Failed to retrieve information for things ${params.id}`;
+    throw new Error(`Failed to retrieve information for things ${params.id}`);
   }
   const text = await response.text();
-  const parsedResponse: { termsofuse: string; items: { item: IAPIThing[] } } = parser.parse(text, {
-    ignoreAttributes: false,
-    attributeNamePrefix: "",
-    textNodeName: "text",
-    parseAttributeValue: true,
-  });
+  const parsedResponse: { termsofuse: string; items: { item: IAPIThing | IAPIThing[] } } =
+    parser.parse(text, {
+      ignoreAttributes: false,
+      attributeNamePrefix: "",
+      textNodeName: "text",
+      parseAttributeValue: true,
+    });
+
   return collections.map(c => {
-    return { collection: c, thing: parsedResponse.items.item.find(f => f.id === c.objectid) };
+    if (Array.isArray(parsedResponse.items.item)) {
+      return { collection: c, thing: parsedResponse.items.item.find(f => f.id === c.objectid) };
+    } else {
+      return { collection: c, thing: parsedResponse.items.item };
+    }
   });
 };
 
@@ -92,7 +93,9 @@ const fetchThings = async (
  * @returns a list of "things" from BGG
  */
 export const fetchCollection = async (params: ICollectionParams): Promise<ICollection[]> => {
-  const response = await fetchWrapper(`/collection?${urlParamsFromObject(params)}`);
+  const response = await fetch(
+    `https://api.geekdo.com/xmlapi2/collection?${urlParamsFromObject(params)}`
+  );
 
   /*
    * 202 indicates BGG has queued your request and you need to keep retrying
@@ -103,18 +106,24 @@ export const fetchCollection = async (params: ICollectionParams): Promise<IColle
     return fetchCollection(params);
   } else if (response.status === 200) {
     const text = await response.text();
-    const parsedResponse: { termsofuse: string; items: { item: IAPICollection[] } } = parser.parse(
-      text,
-      {
-        ignoreAttributes: false,
-        attributeNamePrefix: "",
-        textNodeName: "text",
-        parseAttributeValue: true,
-      }
-    );
-    const collectionsAndThings = await fetchThings(parsedResponse.items.item);
+    const parsedResponse: {
+      termsofuse: string;
+      items: { item: IAPICollection | IAPICollection[] };
+    } = parser.parse(text, {
+      ignoreAttributes: false,
+      attributeNamePrefix: "",
+      textNodeName: "text",
+      parseAttributeValue: true,
+    });
+
+    let collectionsAndThings;
+    if (Array.isArray(parsedResponse.items.item)) {
+      collectionsAndThings = await fetchThings(parsedResponse.items.item);
+    } else {
+      collectionsAndThings = await fetchThings([parsedResponse.items.item]);
+    }
     return processData(collectionsAndThings);
   } else {
-    throw `Failed to retrieve game collection for ${params.username}`;
+    throw new Error(`Failed to retrieve game collection for ${params.username}`);
   }
 };
