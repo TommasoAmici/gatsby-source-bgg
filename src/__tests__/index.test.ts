@@ -33,7 +33,7 @@ test("fetchCollection returns a processed collection from the API", async () => 
     .mockReturnValueOnce(
       Promise.resolve({ text: () => "We're preparing your data", status: 202 } as any)
     )
-    .mockReturnValueOnce({ text: () => collectionBody, status: 200 } as any)
+    .mockReturnValueOnce(Promise.resolve({ text: () => collectionBody, status: 200 }) as any)
     .mockReturnValueOnce(Promise.resolve({ text: () => thingBody, status: 200 } as any));
 
   const collection = await fetchCollection({ username: "tommasoamici" });
@@ -43,7 +43,7 @@ test("fetchCollection returns a processed collection from the API", async () => 
 
 test("fetchCollection returns a processed collection from the API if only one item is present", async () => {
   mockedFetch
-    .mockReturnValueOnce({ text: () => collectionBodyOneItem, status: 200 } as any)
+    .mockReturnValueOnce(Promise.resolve({ text: () => collectionBodyOneItem, status: 200 }) as any)
     .mockReturnValueOnce(Promise.resolve({ text: () => thingBodyOneItem, status: 200 } as any));
 
   const collection = await fetchCollection({ username: "tommasoamici" });
@@ -59,7 +59,7 @@ test("fetchCollection throws error if no response from server", async () => {
 
 test("fetchThings throws error if no response from server", async () => {
   mockedFetch
-    .mockReturnValueOnce({ text: () => collectionBodyOneItem, status: 200 } as any)
+    .mockReturnValueOnce(Promise.resolve({ text: () => collectionBodyOneItem, status: 200 }) as any)
     .mockReturnValueOnce(Promise.resolve({ text: () => "Not found", status: 404 } as any));
 
   await expect(fetchCollection({ username: "tommasoamici" })).rejects.toThrow();
