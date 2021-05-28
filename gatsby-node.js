@@ -9,7 +9,7 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }, plu
   const games = await fetchCollection(pluginOptions);
   games.forEach(game => {
     const nodeMeta = {
-      id: createNodeId(`${GAME_NODE_TYPE}-${game.name}`),
+      id: createNodeId(`${GAME_NODE_TYPE}-${game.objectID}`),
       parent: null,
       children: [],
       internal: {
