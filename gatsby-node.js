@@ -3,11 +3,20 @@ const { fetchCollection } = require("./dist/index");
 
 const GAME_NODE_TYPE = "BggGame";
 
-exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }, pluginOptions) => {
+exports.sourceNodes = async (
+  { actions, cache, createNodeId, createContentDigest },
+  pluginOptions
+) => {
   const { createNode } = actions;
 
-  const games = await fetchCollection(pluginOptions);
-  games.forEach(game => {
+  const cacheKey = "gatsby-source-bgg";
+  let sourceData = await cache.get(cacheKey);
+  if (!sourceData) {
+    sourceData = await fetchCollection(pluginOptions);
+    await cache.set(cacheKey, sourceData);
+  }
+
+  sourceData.forEach(game => {
     const nodeMeta = {
       id: createNodeId(`${GAME_NODE_TYPE}-${game.objectID}`),
       parent: null,
