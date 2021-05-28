@@ -39,9 +39,10 @@ jobs:
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
 
-      - name: Publish @next to npm
+      - name: Publish dev to GitHub registry
         run: |
           yarn config set npmAuthToken "$NPM_AUTH_TOKEN"
-          yarn npm publish --tag next
+          yarn config set npmPublishRegistry "https://npm.pkg.github.com"
+          yarn npm publish --tag dev
         env:
-          NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+          NPM_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
