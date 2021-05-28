@@ -24,6 +24,13 @@ jobs:
       - run: yarn test
       - run: yarn build
 
+      - name: Publish @next to npm
+        run: |
+          yarn config set npmAuthToken "$NPM_AUTH_TOKEN"
+          yarn npm publish --tag next
+        env:
+          NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+
       - name: Upload coverage to codecov
         uses: codecov/codecov-action@v1
         with:
