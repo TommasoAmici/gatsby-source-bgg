@@ -8,3 +8,4 @@ tsconfig.json
 tsconfig.tsbuildinfo
 .prettierrc
 .prettierignore
+dist/__tests__/
