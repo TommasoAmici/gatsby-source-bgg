@@ -1,4 +1,4 @@
-import { CreateNodeArgs, NodeInput, SourceNodesArgs } from "gatsby";
+import { CreateNodeArgs, CreateSchemaCustomizationArgs, NodeInput, SourceNodesArgs } from "gatsby";
 import { createRemoteFileNode, CreateRemoteFileNodeArgs } from "gatsby-source-filesystem";
 import { fetchCollection } from "./index";
 
@@ -43,7 +43,15 @@ export const onCreateNode = async (args: CreateNodeArgs) => {
     };
     const fileNode = await createRemoteFileNode(remoteFileNodeArgs);
     if (fileNode) {
-      args.node["coverImage___NODE"] = fileNode.id;
+      args.node.coverImage = fileNode.id;
     }
   }
+};
+
+export const createSchemaCustomization = async (args: CreateSchemaCustomizationArgs) => {
+  const { createTypes } = args.actions;
+  createTypes(`
+    type ${GAME_NODE_TYPE} implements Node {
+      coverImage: File @link
+    }`);
 };
