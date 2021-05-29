@@ -35,6 +35,7 @@ export const onCreateNode = async (args: CreateNodeArgs) => {
   if (args.node.internal.type === GAME_NODE_TYPE) {
     const remoteFileNodeArgs: CreateRemoteFileNodeArgs = {
       url: String(args.node.image),
+      parentNodeId: args.node.id,
       store: args.store,
       cache: args.cache,
       createNode: args.actions.createNode,
