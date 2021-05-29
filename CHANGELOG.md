@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.8] - 2020-05-29
+
+### Fixed
+
+- Subsequent builds would fail unless the cache was cleaned every time between them ([#3](https://github.com/TommasoAmici/gatsby-source-bgg/issues/3))
+
 ## [1.0.7] - 2020-05-28
 
 ### Changed
