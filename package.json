@@ -34,8 +34,8 @@
   },
   "dependencies": {
     "fast-xml-parser": "^3.19.0",
-    "gatsby": "^3.0.0",
-    "gatsby-source-filesystem": "^3.0.0",
+    "gatsby": "^3.6.1",
+    "gatsby-source-filesystem": "^3.6.0",
     "node-fetch": "^2.6.1"
   },
   "devDependencies": {
