@@ -14,5 +14,7 @@ test("sleep sets a delay in the program", async () => {
   const currentTime = new Date().getTime();
   await sleep(500);
   const timeAfterSleep = new Date().getTime();
-  expect(timeAfterSleep - currentTime).toBeGreaterThanOrEqual(500);
+  // theoretically this should be 500, but a little wiggle room will make this more reliable
+  // as it's async and once the GitHub action failed because it was 499, which I want to avoid
+  expect(timeAfterSleep - currentTime).toBeGreaterThanOrEqual(495);
 });
