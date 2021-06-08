@@ -2561,7 +2561,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:14.17.1, @types/node@npm:^14.14.10":
+"@types/node@npm:14.17.3":
+  version: 14.17.3
+  resolution: "@types/node@npm:14.17.3"
+  checksum: 0d3e3c3dbb8250166d7c8c7c6221bde20a366d2c34b27c0072c3962a32c8a74c4ae4a168bfe53d6193e7b0bba8d8bc87608a6fd2af7918cd444a9aa699b4ce18
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^14.14.10":
   version: 14.17.1
   resolution: "@types/node@npm:14.17.1"
   checksum: 3ab1180ff2579f4039aa2416087df03e4e8b5f930b64e024ad2b2ae73e546f6054c3bae0324180d425944c7c408c02fdf6ca71f5a265ed05f28aeaae0a2c3599
@@ -7554,7 +7561,7 @@ fsevents@^1.2.7:
   resolution: "gatsby-source-bgg@workspace:."
   dependencies:
     "@types/jest": 26.0.23
-    "@types/node": 14.17.1
+    "@types/node": 14.17.3
     "@types/node-fetch": 2.5.10
     fast-xml-parser: ^3.19.0
     gatsby: ^3.6.1
