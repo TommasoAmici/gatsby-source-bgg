@@ -2481,7 +2481,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:^26.0.23":
+"@types/jest@npm:26.0.23":
   version: 26.0.23
   resolution: "@types/jest@npm:26.0.23"
   dependencies:
@@ -2544,7 +2544,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node-fetch@npm:2, @types/node-fetch@npm:^2.5.10":
+"@types/node-fetch@npm:2, @types/node-fetch@npm:2.5.10":
   version: 2.5.10
   resolution: "@types/node-fetch@npm:2.5.10"
   dependencies:
@@ -2561,7 +2561,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^14.14.10, @types/node@npm:^14.17.1":
+"@types/node@npm:14.17.1, @types/node@npm:^14.14.10":
   version: 14.17.1
   resolution: "@types/node@npm:14.17.1"
   checksum: 3ab1180ff2579f4039aa2416087df03e4e8b5f930b64e024ad2b2ae73e546f6054c3bae0324180d425944c7c408c02fdf6ca71f5a265ed05f28aeaae0a2c3599
@@ -7553,20 +7553,20 @@ fsevents@^1.2.7:
   version: 0.0.0-use.local
   resolution: "gatsby-source-bgg@workspace:."
   dependencies:
-    "@types/jest": ^26.0.23
-    "@types/node": ^14.17.1
-    "@types/node-fetch": ^2.5.10
+    "@types/jest": 26.0.23
+    "@types/node": 14.17.1
+    "@types/node-fetch": 2.5.10
     fast-xml-parser: ^3.19.0
     gatsby: ^3.6.1
     gatsby-source-filesystem: ^3.6.0
-    husky: ^6.0.0
-    jest: ^26.6.3
-    lint-staged: ^11.0.0
+    husky: 6.0.0
+    jest: 26.6.3
+    lint-staged: 11.0.0
     node-fetch: ^2.6.1
-    pinst: ^2.1.6
-    prettier: ^2.3.0
-    ts-jest: ^26.5.6
-    typescript: ^4.2.4
+    pinst: 2.1.6
+    prettier: 2.3.0
+    ts-jest: 26.5.6
+    typescript: 4.2.4
   peerDependencies:
     gatsby-plugin-sharp: "*"
     gatsby-transformer-sharp: "*"
@@ -8635,7 +8635,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"husky@npm:^6.0.0":
+"husky@npm:6.0.0":
   version: 6.0.0
   resolution: "husky@npm:6.0.0"
   bin:
@@ -10130,7 +10130,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"jest@npm:^26.6.3":
+"jest@npm:26.6.3":
   version: 26.6.3
   resolution: "jest@npm:26.6.3"
   dependencies:
@@ -10495,7 +10495,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^11.0.0":
+"lint-staged@npm:11.0.0":
   version: 11.0.0
   resolution: "lint-staged@npm:11.0.0"
   dependencies:
@@ -12576,7 +12576,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"pinst@npm:^2.1.6":
+"pinst@npm:2.1.6":
   version: 2.1.6
   resolution: "pinst@npm:2.1.6"
   dependencies:
@@ -13127,7 +13127,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.0.5, prettier@npm:^2.3.0":
+"prettier@npm:2.3.0, prettier@npm:^2.0.5":
   version: 2.3.0
   resolution: "prettier@npm:2.3.0"
   bin:
@@ -15713,7 +15713,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"ts-jest@npm:^26.5.6":
+"ts-jest@npm:26.5.6":
   version: 26.5.6
   resolution: "ts-jest@npm:26.5.6"
   dependencies:
@@ -15934,7 +15934,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-typescript@^4.2.4:
+typescript@4.2.4:
   version: 4.2.4
   resolution: "typescript@npm:4.2.4"
   bin:
@@ -15944,7 +15944,7 @@ typescript@^4.2.4:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.2.4#builtin<compat/typescript>":
+"typescript@patch:typescript@4.2.4#builtin<compat/typescript>":
   version: 4.2.4
   resolution: "typescript@patch:typescript@npm%3A4.2.4#builtin<compat/typescript>::version=4.2.4&hash=a45b0e"
   bin:
