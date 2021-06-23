@@ -40,7 +40,7 @@
   },
   "devDependencies": {
     "@types/jest": "26.0.23",
-    "@types/node": "14.17.3",
+    "@types/node": "14.17.4",
     "@types/node-fetch": "2.5.10",
     "husky": "6.0.0",
     "jest": "27.0.5",
