@@ -7,23 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.9] - 2021-06-28
+
 ### Fixed
 
 - API may return a single object and not an array for suggested number of players poll ([#15](https://github.com/TommasoAmici/gatsby-source-bgg/issues/15))
 
-## [1.0.8] - 2020-05-29
+## [1.0.8] - 2021-05-29
 
 ### Fixed
 
 - Subsequent builds would fail unless the cache was cleaned every time between them ([#3](https://github.com/TommasoAmici/gatsby-source-bgg/issues/3))
 
-## [1.0.7] - 2020-05-28
+## [1.0.7] - 2021-05-28
 
 ### Changed
 
 - node IDs are now generated from games IDs instead of their name
 
-## [1.0.6] - 2020-05-25
+## [1.0.6] - 2021-05-25
 
 ### Changed
 
@@ -33,19 +35,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - An error would occur if only one item was in a collection
 
-## [1.0.5] - 2020-05-24
+## [1.0.5] - 2021-05-24
 
 ### Changed
 
 - Removed `gatsby-source-filesystem` as a direct dependency, it is now a peer dependency
 
-## [1.0.2] - 2020-05-24
+## [1.0.2] - 2021-05-24
 
 ### Fixed
 
 - postinstall script to set up husky git hooks would run and fail when installing from npm registry
 
-## [1.0.0] - 2020-05-24
+## [1.0.0] - 2021-05-24
 
 ### Added
 
