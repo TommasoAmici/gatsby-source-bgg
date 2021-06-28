@@ -100,9 +100,14 @@ interface IAPIPollResults {
   numvotes: number;
 }
 
+interface IPollNumPlayersResult {
+  numplayers: number | string;
+  result?: IAPIPollResults[];
+}
+
 interface IPollNumPlayers extends IAPIPoll {
   name: "suggested_numplayers";
-  results: { numplayers: number | string; result: IAPIPollResults[] }[];
+  results: IPollNumPlayersResult | IPollNumPlayersResult[];
 }
 
 interface IPollPlayerAge extends IAPIPoll {
@@ -201,7 +206,7 @@ interface ICollection {
     lastModified: Date;
   };
   numPlays: number;
-  suggestedNumPlayers?: {
+  suggestedNumPlayers: {
     numPlayers: string;
     best: number;
     recommended: number;

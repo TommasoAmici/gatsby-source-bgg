@@ -34,9 +34,16 @@ const suggestedNumPlayersLabelMap: {
 };
 
 export const processSuggestedNumPlayersPoll = (poll: IPollNumPlayers | undefined) => {
-  return poll?.results.map(r => {
+  if (poll === undefined) return [];
+  let results: IPollNumPlayersResult[] = [];
+  if (Array.isArray(poll.results)) {
+    results = poll.results;
+  } else {
+    results = [poll.results];
+  }
+  return results.map(r => {
     const obj = { numPlayers: String(r.numplayers), best: 0, recommended: 0, notRecommended: 0 };
-    r.result.forEach(
+    r.result?.forEach(
       l => (obj[suggestedNumPlayersLabelMap[l.value.toString().toLowerCase()]] = l.numvotes)
     );
     return obj;

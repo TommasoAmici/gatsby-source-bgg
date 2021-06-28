@@ -58,6 +58,13 @@ export const suggestedNumPlayersPollFixture: IPollNumPlayers = {
   ],
 };
 
+export const suggestedNumPlayersPollSingleResultFixture: IPollNumPlayers = {
+  title: "User Suggested Number of Players",
+  totalvotes: 821,
+  name: "suggested_numplayers",
+  results: { numplayers: 1 },
+};
+
 export const languageDependencePollFixture: IPollLanguageDependence = {
   title: "Language dependence",
   name: "language_dependence",

@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- API may return a single object and not an array for suggested number of players poll ([#15](https://github.com/TommasoAmici/gatsby-source-bgg/issues/15))
+
 ## [1.0.8] - 2020-05-29
 
 ### Fixed

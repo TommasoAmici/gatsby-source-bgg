@@ -8,6 +8,7 @@ import {
   languageDependencePollFixture,
   suggestedAgePollFixture,
   suggestedNumPlayersPollFixture,
+  suggestedNumPlayersPollSingleResultFixture,
 } from "./fixtures.test";
 
 test("processSuggestedAgePoll returns 0s if poll is undefined", () => {
@@ -44,8 +45,14 @@ test("processSuggestedAgePoll maps answers correctly and returns TSuggestedAgePo
   });
 });
 
-test("processSuggestedNumPlayersPoll returns undefined if poll is undefined", () => {
-  expect(processSuggestedNumPlayersPoll(undefined)).toBe(undefined);
+test("processSuggestedNumPlayersPoll returns an empty array if poll is undefined", () => {
+  expect(processSuggestedNumPlayersPoll(undefined)).toStrictEqual([]);
+});
+
+test("processSuggestedNumPlayersPoll maps single result to array", () => {
+  expect(processSuggestedNumPlayersPoll(suggestedNumPlayersPollSingleResultFixture)).toStrictEqual([
+    { numPlayers: "1", best: 0, recommended: 0, notRecommended: 0 },
+  ]);
 });
 
 test("processSuggestedNumPlayersPoll returns correct map (not case sensitive)", () => {
