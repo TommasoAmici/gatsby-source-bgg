@@ -39,7 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@types/jest", "npm:26.0.24"],
             ["@types/node", "npm:14.17.5"],
-            ["@types/node-fetch", "npm:2.5.11"],
+            ["@types/node-fetch", "npm:2.5.12"],
             ["fast-xml-parser", "npm:3.19.0"],
             ["gatsby", "virtual:b3cf2b0b8c3e1985eb68aa6649f9f9b993e0d34299d0d7d6347bf6e314973dc8224ce9f748aa779e19172543b5e468a83bfa8d879e3875229670c5f6fbf47f26#npm:3.6.1"],
             ["gatsby-source-filesystem", "virtual:b3cf2b0b8c3e1985eb68aa6649f9f9b993e0d34299d0d7d6347bf6e314973dc8224ce9f748aa779e19172543b5e468a83bfa8d879e3875229670c5f6fbf47f26#npm:3.6.0"],
@@ -4595,10 +4595,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:2.5.11", {
-          "packageLocation": "./.yarn/cache/@types-node-fetch-npm-2.5.11-8bbb0dd864-944b0c6bed.zip/node_modules/@types/node-fetch/",
+        ["npm:2.5.12", {
+          "packageLocation": "./.yarn/cache/@types-node-fetch-npm-2.5.12-e9530d4758-f648728116.zip/node_modules/@types/node-fetch/",
           "packageDependencies": [
-            ["@types/node-fetch", "npm:2.5.11"],
+            ["@types/node-fetch", "npm:2.5.12"],
             ["@types/node", "npm:15.3.1"],
             ["form-data", "npm:3.0.1"]
           ],
@@ -10760,7 +10760,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["gatsby-source-bgg", "workspace:."],
             ["@types/jest", "npm:26.0.24"],
             ["@types/node", "npm:14.17.5"],
-            ["@types/node-fetch", "npm:2.5.11"],
+            ["@types/node-fetch", "npm:2.5.12"],
             ["fast-xml-parser", "npm:3.19.0"],
             ["gatsby", "virtual:b3cf2b0b8c3e1985eb68aa6649f9f9b993e0d34299d0d7d6347bf6e314973dc8224ce9f748aa779e19172543b5e468a83bfa8d879e3875229670c5f6fbf47f26#npm:3.6.1"],
             ["gatsby-source-filesystem", "virtual:b3cf2b0b8c3e1985eb68aa6649f9f9b993e0d34299d0d7d6347bf6e314973dc8224ce9f748aa779e19172543b5e468a83bfa8d879e3875229670c5f6fbf47f26#npm:3.6.0"],
