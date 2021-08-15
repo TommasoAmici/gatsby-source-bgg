@@ -18,7 +18,7 @@ jobs:
       - run: yarn install --immutable --immutable-cache
 
       - name: Test
-        run: yarn test
+        run: yarn test:ci
 
       - name: Build
         run: yarn build
