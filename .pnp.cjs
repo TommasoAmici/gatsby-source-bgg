@@ -36,7 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@types/jest", "npm:27.0.1"],
-            ["@types/node", "npm:14.17.14"],
+            ["@types/node", "npm:14.17.15"],
             ["@types/node-fetch", "npm:2.5.12"],
             ["fast-xml-parser", "npm:3.19.0"],
             ["gatsby", "virtual:b3cf2b0b8c3e1985eb68aa6649f9f9b993e0d34299d0d7d6347bf6e314973dc8224ce9f748aa779e19172543b5e468a83bfa8d879e3875229670c5f6fbf47f26#npm:3.13.0"],
@@ -4886,10 +4886,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:14.17.14", {
-          "packageLocation": "./.yarn/cache/@types-node-npm-14.17.14-9f52404552-66ed675a32.zip/node_modules/@types/node/",
+        ["npm:14.17.15", {
+          "packageLocation": "./.yarn/cache/@types-node-npm-14.17.15-9cfdb3e8eb-e0840304db.zip/node_modules/@types/node/",
           "packageDependencies": [
-            ["@types/node", "npm:14.17.14"]
+            ["@types/node", "npm:14.17.15"]
           ],
           "linkType": "HARD",
         }],
@@ -10797,7 +10797,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["gatsby-source-bgg", "workspace:."],
             ["@types/jest", "npm:27.0.1"],
-            ["@types/node", "npm:14.17.14"],
+            ["@types/node", "npm:14.17.15"],
             ["@types/node-fetch", "npm:2.5.12"],
             ["fast-xml-parser", "npm:3.19.0"],
             ["gatsby", "virtual:b3cf2b0b8c3e1985eb68aa6649f9f9b993e0d34299d0d7d6347bf6e314973dc8224ce9f748aa779e19172543b5e468a83bfa8d879e3875229670c5f6fbf47f26#npm:3.13.0"],
