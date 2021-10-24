@@ -5,8 +5,10 @@ import { fetchCollection } from "./index";
 const GAME_NODE_TYPE = "BggGame";
 
 export const sourceNodes = async (args: SourceNodesArgs, pluginOptions: ICollectionParams) => {
+  const activity = args.reporter.activityTimer("gatsby-source-bgg");
+  activity.start();
   const cacheKey = "gatsby-source-bgg";
-  let sourceData = await args.cache.get(cacheKey);
+  let sourceData: ICollection[] = await args.cache.get(cacheKey);
   if (!sourceData) {
     sourceData = await fetchCollection(pluginOptions);
     await args.cache.set(cacheKey, sourceData);
@@ -27,6 +29,8 @@ export const sourceNodes = async (args: SourceNodesArgs, pluginOptions: ICollect
     const node: NodeInput = { ...game, ...nodeMeta };
     args.actions.createNode(node);
   });
+  activity.setStatus(`Nodes created for ${sourceData.length} games`);
+  activity.end();
   return;
 };
 
