@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2021-10-24
+
+### Added
+
+- added support for Gatsby v4
+- report number of nodes created and time taken when building
+
 ## [1.0.9] - 2021-06-28
 
 ### Fixed
