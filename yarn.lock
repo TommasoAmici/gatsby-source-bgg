@@ -6320,10 +6320,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "example@workspace:example"
   dependencies:
-    gatsby: ^4.0.0
+    gatsby: 4.0.0
     gatsby-source-bgg: "workspace:."
-    react: ^17.0.2
-    react-dom: ^17.0.2
+    react: 17.0.2
+    react-dom: 17.0.2
   languageName: unknown
   linkType: soft
 
@@ -7237,7 +7237,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby@npm:^4.0.0":
+"gatsby@npm:4.0.0, gatsby@npm:^4.0.0":
   version: 4.0.0
   resolution: "gatsby@npm:4.0.0"
   dependencies:
@@ -12593,7 +12593,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^17.0.2":
+"react-dom@npm:17.0.2":
   version: 17.0.2
   resolution: "react-dom@npm:17.0.2"
   dependencies:
@@ -12641,7 +12641,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:^17.0.2":
+"react@npm:17.0.2":
   version: 17.0.2
   resolution: "react@npm:17.0.2"
   dependencies:
