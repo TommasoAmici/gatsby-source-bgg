@@ -40,7 +40,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
-            ["@types/jest", "npm:27.0.2"],
+            ["@types/jest", "npm:27.0.3"],
             ["@types/node", "npm:16.11.8"],
             ["@types/node-fetch", "npm:2.5.12"],
             ["fast-xml-parser", "npm:3.19.0"],
@@ -4085,10 +4085,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/jest", [
-        ["npm:27.0.2", {
-          "packageLocation": "./.yarn/cache/@types-jest-npm-27.0.2-f9ba43c7f9-814ad5f5d2.zip/node_modules/@types/jest/",
+        ["npm:27.0.3", {
+          "packageLocation": "./.yarn/cache/@types-jest-npm-27.0.3-c4c49cbce2-3683a99458.zip/node_modules/@types/jest/",
           "packageDependencies": [
-            ["@types/jest", "npm:27.0.2"],
+            ["@types/jest", "npm:27.0.3"],
             ["jest-diff", "npm:27.3.1"],
             ["pretty-format", "npm:27.3.1"]
           ],
@@ -10456,7 +10456,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/gatsby", null],
             ["@types/gatsby-plugin-sharp", null],
             ["@types/gatsby-transformer-sharp", null],
-            ["@types/jest", "npm:27.0.2"],
+            ["@types/jest", "npm:27.0.3"],
             ["@types/node", "npm:16.11.8"],
             ["@types/node-fetch", "npm:2.5.12"],
             ["fast-xml-parser", "npm:3.19.0"],
@@ -10487,7 +10487,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["gatsby-source-bgg", "workspace:."],
-            ["@types/jest", "npm:27.0.2"],
+            ["@types/jest", "npm:27.0.3"],
             ["@types/node", "npm:16.11.8"],
             ["@types/node-fetch", "npm:2.5.12"],
             ["fast-xml-parser", "npm:3.19.0"],
@@ -19114,7 +19114,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/core", null],
             ["@types/babel-jest", null],
             ["@types/babel__core", null],
-            ["@types/jest", "npm:27.0.2"],
+            ["@types/jest", "npm:27.0.3"],
             ["@types/typescript", null],
             ["babel-jest", null],
             ["bs-logger", "npm:0.2.6"],
