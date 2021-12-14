@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "@types/jest": "27.0.3",
-    "@types/node": "16.11.12",
+    "@types/node": "16.11.13",
     "@types/node-fetch": "2.5.12",
     "gatsby": "4.4.0",
     "husky": "7.0.4",
