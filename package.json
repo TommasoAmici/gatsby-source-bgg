@@ -45,7 +45,7 @@
     "@types/jest": "27.4.0",
     "@types/node": "16.11.21",
     "@types/node-fetch": "2.5.12",
-    "gatsby": "4.5.3",
+    "gatsby": "4.5.4",
     "husky": "7.0.4",
     "jest": "27.4.7",
     "lint-staged": "12.2.1",
