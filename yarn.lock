@@ -6476,7 +6476,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "example@workspace:example"
   dependencies:
-    gatsby: 4.6.0
+    gatsby: 4.6.1
     gatsby-source-bgg: "workspace:."
     react: 17.0.2
     react-dom: 17.0.2
@@ -7300,7 +7300,7 @@ __metadata:
     "@types/node": 16.11.22
     "@types/node-fetch": 2.5.12
     fast-xml-parser: ^3.19.0
-    gatsby: 4.6.0
+    gatsby: 4.6.1
     gatsby-source-filesystem: ^4.0.0
     husky: 7.0.4
     jest: 27.4.7
@@ -7371,9 +7371,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby@npm:4.6.0":
-  version: 4.6.0
-  resolution: "gatsby@npm:4.6.0"
+"gatsby@npm:4.6.1":
+  version: 4.6.1
+  resolution: "gatsby@npm:4.6.1"
   dependencies:
     "@babel/code-frame": ^7.14.0
     "@babel/core": ^7.15.5
@@ -7533,7 +7533,7 @@ __metadata:
       optional: true
   bin:
     gatsby: ./cli.js
-  checksum: 1b99c4e847a267f6ccc76ead71a6a1e944dabfff4aca1f6d3ee2b6495866ace82fe4ffab675cd6eede938128a36f9769553ab69b0a86536b3d54058c7f87ec48
+  checksum: 63e40bd7db00c93aec4001a63ff0411cfa6a7d94b9757ee3f1ab61ff7d388de4333d88474e915b9d7286d1e9f9f5aa3a3d4b7d56069fd1cf7f6e5dddfc53fac7
   languageName: node
   linkType: hard
 
