@@ -42,7 +42,7 @@
     "node-fetch": "^2.6.1"
   },
   "devDependencies": {
-    "@types/jest": "27.4.0",
+    "@types/jest": "27.4.1",
     "@types/node": "16.11.25",
     "@types/node-fetch": "2.6.1",
     "gatsby": "4.8.0",
