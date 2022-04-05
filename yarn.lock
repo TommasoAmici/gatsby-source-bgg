@@ -5715,14 +5715,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"create-gatsby@npm:^2.11.1":
-  version: 2.11.1
-  resolution: "create-gatsby@npm:2.11.1"
+"create-gatsby@npm:^2.11.2":
+  version: 2.11.2
+  resolution: "create-gatsby@npm:2.11.2"
   dependencies:
     "@babel/runtime": ^7.15.4
   bin:
     create-gatsby: cli.js
-  checksum: 8ff3c758bb9af6dc9cb8ee5aeac716bb98f08e49f86c19cbbe1df51a437046a563573645c5285276ada93dd3a2d0dd886ec75be11430c335d6281f451880d562
+  checksum: 672840735b59033ea3133b4f5b0a07ad2efb55e89103b2b6b2a887704a4a572c702ec7828b1be590b713bdb37829a4400e178e9078c9e97af29a49096cae85f0
   languageName: node
   linkType: hard
 
@@ -7254,7 +7254,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "example@workspace:example"
   dependencies:
-    gatsby: 4.11.1
+    gatsby: 4.11.2
     gatsby-source-bgg: "workspace:."
     react: 17.0.2
     react-dom: 17.0.2
@@ -7855,9 +7855,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-cli@npm:^4.11.1":
-  version: 4.11.1
-  resolution: "gatsby-cli@npm:4.11.1"
+"gatsby-cli@npm:^4.11.2":
+  version: 4.11.2
+  resolution: "gatsby-cli@npm:4.11.2"
   dependencies:
     "@babel/code-frame": ^7.14.0
     "@babel/core": ^7.15.5
@@ -7875,7 +7875,7 @@ __metadata:
     common-tags: ^1.8.2
     configstore: ^5.0.1
     convert-hrtime: ^3.0.0
-    create-gatsby: ^2.11.1
+    create-gatsby: ^2.11.2
     envinfo: ^7.8.1
     execa: ^5.1.1
     fs-exists-cached: ^1.0.0
@@ -7906,7 +7906,7 @@ __metadata:
     yurnalist: ^2.1.0
   bin:
     gatsby: cli.js
-  checksum: e0e8be47e22309c187afa79bc85758e6a8692a330ddde2cdbc4a8edc018acb60a6776fc6a07d7e65087af6261f63d0671d5dd0e4cefa5dd59857b385ae6f2b6c
+  checksum: e892fa85ef71ed421e1a6154a95074c0e8b3b0b8167b26a1e879b73c4e289a1c1afbb9365c4c7a9bb1bbc313d5c859b5aaa04b2ba520d1f32e414f8377d9f508
   languageName: node
   linkType: hard
 
@@ -8140,7 +8140,7 @@ __metadata:
     "@types/node": 16.11.26
     "@types/node-fetch": 2.6.1
     fast-xml-parser: ^3.19.0
-    gatsby: 4.11.1
+    gatsby: 4.11.2
     gatsby-source-filesystem: ^4.0.0
     husky: 7.0.4
     jest: 27.5.1
@@ -8211,9 +8211,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby@npm:4.11.1":
-  version: 4.11.1
-  resolution: "gatsby@npm:4.11.1"
+"gatsby@npm:4.11.2":
+  version: 4.11.2
+  resolution: "gatsby@npm:4.11.2"
   dependencies:
     "@babel/code-frame": ^7.14.0
     "@babel/core": ^7.15.5
@@ -8283,7 +8283,7 @@ __metadata:
     find-cache-dir: ^3.3.2
     fs-exists-cached: 1.0.0
     fs-extra: ^10.0.0
-    gatsby-cli: ^4.11.1
+    gatsby-cli: ^4.11.2
     gatsby-core-utils: ^3.11.1
     gatsby-graphiql-explorer: ^2.11.0
     gatsby-legacy-polyfills: ^2.11.0
@@ -8376,7 +8376,7 @@ __metadata:
       optional: true
   bin:
     gatsby: ./cli.js
-  checksum: 3b1ba33c8c4668ad4c7bf4c8e9663c6517f207aafbbd2a1897fa764766b64c5a1b8bcdb85c5b2eb1a701d98b083f42a2894db5bc57aef4764b5bd5e68f5eaf39
+  checksum: 2d2a14e17385f19c47114425347b86d392849c078415582c9beb66aa7fa08b7223dcd649c33f732d559cbbb91aa2192af5575b696657caf4d5d557f29c457b5c
   languageName: node
   linkType: hard
 
