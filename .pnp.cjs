@@ -41,7 +41,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@types/jest", "npm:27.4.1"],
-            ["@types/node", "npm:16.11.32"],
+            ["@types/node", "npm:16.11.33"],
             ["@types/node-fetch", "npm:2.6.1"],
             ["fast-xml-parser", "npm:3.19.0"],
             ["gatsby", "virtual:b3cf2b0b8c3e1985eb68aa6649f9f9b993e0d34299d0d7d6347bf6e314973dc8224ce9f748aa779e19172543b5e468a83bfa8d879e3875229670c5f6fbf47f26#npm:4.13.1"],
@@ -5985,10 +5985,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/node", [
-        ["npm:16.11.32", {
-          "packageLocation": "./.yarn/cache/@types-node-npm-16.11.32-ebb0e7ff2d-21f1bcd4f4.zip/node_modules/@types/node/",
+        ["npm:16.11.33", {
+          "packageLocation": "./.yarn/cache/@types-node-npm-16.11.33-01bfb97de4-5c86d3f1e3.zip/node_modules/@types/node/",
           "packageDependencies": [
-            ["@types/node", "npm:16.11.32"]
+            ["@types/node", "npm:16.11.33"]
           ],
           "linkType": "HARD",
         }],
@@ -12394,7 +12394,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/gatsby-plugin-sharp", null],
             ["@types/gatsby-transformer-sharp", null],
             ["@types/jest", "npm:27.4.1"],
-            ["@types/node", "npm:16.11.32"],
+            ["@types/node", "npm:16.11.33"],
             ["@types/node-fetch", "npm:2.6.1"],
             ["fast-xml-parser", "npm:3.19.0"],
             ["gatsby", "virtual:260cbded26170ad9574d8af795f720c814500bad7a46f467f26b2daa1d7cb0583916d1f4f34948412d6d3e69e4f2781f1908be54ba6e3e97f1f75b8445445101#npm:4.13.1"],
@@ -12425,7 +12425,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["gatsby-source-bgg", "workspace:."],
             ["@types/jest", "npm:27.4.1"],
-            ["@types/node", "npm:16.11.32"],
+            ["@types/node", "npm:16.11.33"],
             ["@types/node-fetch", "npm:2.6.1"],
             ["fast-xml-parser", "npm:3.19.0"],
             ["gatsby", "virtual:b3cf2b0b8c3e1985eb68aa6649f9f9b993e0d34299d0d7d6347bf6e314973dc8224ce9f748aa779e19172543b5e468a83bfa8d879e3875229670c5f6fbf47f26#npm:4.13.1"],
