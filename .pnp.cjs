@@ -46,7 +46,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fast-xml-parser", "npm:3.19.0"],
             ["gatsby", "virtual:b3cf2b0b8c3e1985eb68aa6649f9f9b993e0d34299d0d7d6347bf6e314973dc8224ce9f748aa779e19172543b5e468a83bfa8d879e3875229670c5f6fbf47f26#npm:4.15.2"],
             ["gatsby-source-filesystem", "virtual:b3cf2b0b8c3e1985eb68aa6649f9f9b993e0d34299d0d7d6347bf6e314973dc8224ce9f748aa779e19172543b5e468a83bfa8d879e3875229670c5f6fbf47f26#npm:4.0.0"],
-            ["husky", "npm:7.0.4"],
+            ["husky", "npm:8.0.1"],
             ["jest", "virtual:b3cf2b0b8c3e1985eb68aa6649f9f9b993e0d34299d0d7d6347bf6e314973dc8224ce9f748aa779e19172543b5e468a83bfa8d879e3875229670c5f6fbf47f26#npm:27.5.1"],
             ["lint-staged", "npm:12.5.0"],
             ["node-fetch", "npm:2.6.5"],
@@ -13578,7 +13578,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["gatsby-plugin-sharp", null],
             ["gatsby-source-filesystem", "virtual:31980638a4329848e3861800ea1762b0aaa73b5786ec337250dd5b4275d0aebfe51c2b373eada6ca7e013952fb1406b76ef7824881a54dd3ebd66d43cab11786#npm:4.0.0"],
             ["gatsby-transformer-sharp", null],
-            ["husky", "npm:7.0.4"],
+            ["husky", "npm:8.0.1"],
             ["jest", "virtual:b3cf2b0b8c3e1985eb68aa6649f9f9b993e0d34299d0d7d6347bf6e314973dc8224ce9f748aa779e19172543b5e468a83bfa8d879e3875229670c5f6fbf47f26#npm:27.5.1"],
             ["lint-staged", "npm:12.5.0"],
             ["node-fetch", "npm:2.6.5"],
@@ -13607,7 +13607,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fast-xml-parser", "npm:3.19.0"],
             ["gatsby", "virtual:b3cf2b0b8c3e1985eb68aa6649f9f9b993e0d34299d0d7d6347bf6e314973dc8224ce9f748aa779e19172543b5e468a83bfa8d879e3875229670c5f6fbf47f26#npm:4.15.2"],
             ["gatsby-source-filesystem", "virtual:b3cf2b0b8c3e1985eb68aa6649f9f9b993e0d34299d0d7d6347bf6e314973dc8224ce9f748aa779e19172543b5e468a83bfa8d879e3875229670c5f6fbf47f26#npm:4.0.0"],
-            ["husky", "npm:7.0.4"],
+            ["husky", "npm:8.0.1"],
             ["jest", "virtual:b3cf2b0b8c3e1985eb68aa6649f9f9b993e0d34299d0d7d6347bf6e314973dc8224ce9f748aa779e19172543b5e468a83bfa8d879e3875229670c5f6fbf47f26#npm:27.5.1"],
             ["lint-staged", "npm:12.5.0"],
             ["node-fetch", "npm:2.6.5"],
@@ -14579,10 +14579,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["husky", [
-        ["npm:7.0.4", {
-          "packageLocation": "./.yarn/cache/husky-npm-7.0.4-917ba035c6-c6ec4af63d.zip/node_modules/husky/",
+        ["npm:8.0.1", {
+          "packageLocation": "./.yarn/cache/husky-npm-8.0.1-85fede8470-943a73a13d.zip/node_modules/husky/",
           "packageDependencies": [
-            ["husky", "npm:7.0.4"]
+            ["husky", "npm:8.0.1"]
           ],
           "linkType": "HARD",
         }]
