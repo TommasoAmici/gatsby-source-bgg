@@ -1,6 +1,6 @@
 {
   "name": "example",
-  "packageManager": "yarn@3.0.2",
+  "packageManager": "yarn@3.2.3",
   "scripts": {
     "build": "gatsby build",
     "dev": "gatsby develop",
