@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/TommasoAmici/gatsby-source-bgg/compare/v2.0.0...v2.0.1) (2022-09-30)
+
+
+### Bug Fixes
+
+* expanded list of ignored files in .npmignore ([8275e71](https://github.com/TommasoAmici/gatsby-source-bgg/commit/8275e71a49bd91084fe3afe5d999bd5a24063ac9))
+
 ## [2.0.0](https://github.com/TommasoAmici/gatsby-source-bgg/compare/v1.1.1...v2.0.0) (2022-09-30)
 
 
