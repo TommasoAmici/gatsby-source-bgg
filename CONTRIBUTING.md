@@ -3,7 +3,7 @@
 ## Install all the dependencies
 
 ```sh
-yarn
+pnpm install
 ```
 
 When running this command, a pre-commit git hook will be locally installed with
@@ -15,23 +15,20 @@ See `"lint-staged"` in [package.json](./package.json) for more information.
 ## Build the project
 
 ```sh
-yarn build
+pnpm build
 ```
 
 ## Link the package to test locally
 
 ```sh
-yarn link
-# then if your project is in the same directory as this one
-cd /path/to/your/project
-yarn link ../gatsby-source-bgg
+pnpm link
 ```
 
 ## Other commands
 
 ```sh
 # run the entire test suite
-yarn test
+pnpm test
 # format the source code
-yarn format
+pnpm format
 ```
