@@ -1,0 +1,27 @@
+html,
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  max-width: 800px;
+  font-size: 1rem;
+  margin: auto;
+}
+
+.card {
+  padding: 0;
+  font-family: monospace;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+  white-space: pre-wrap;
+}

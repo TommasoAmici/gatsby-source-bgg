@@ -11,6 +11,10 @@ module.exports = {
     description: "A test page for the gatsby-source-bgg package",
   },
   plugins: [
+    "gatsby-transformer-sharp",
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+    "gatsby-plugin-pnpm",
     {
       resolve: "gatsby-source-bgg",
       options: {
