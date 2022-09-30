@@ -30,7 +30,7 @@
     "prepare": "husky install",
     "test": "vitest",
     "test:ci": "vitest run --coverage",
-    "release": "semantic-release"
+    "release": "semantic-release -d"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,md,html,css,yml,json}": "prettier --write"
