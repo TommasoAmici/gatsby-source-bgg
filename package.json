@@ -24,38 +24,38 @@
     "example"
   ],
   "scripts": {
-    "dev": "tsc --watch",
     "build": "tsc -b tsconfig.build.json",
-    "test": "vitest",
-    "test:ci": "vitest run --coverage",
+    "dev": "tsc --watch",
     "format": "prettier --write .",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test": "vitest",
+    "test:ci": "vitest run --coverage"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,md,html,css,yml,json}": "prettier --write"
   },
   "dependencies": {
     "fast-xml-parser": "^3.19.0",
-    "gatsby-source-filesystem": "^4.0.0",
+    "gatsby-source-filesystem": "^4.24.0",
     "node-fetch": "^2.6.1"
   },
   "devDependencies": {
-    "@types/node": "16.11.38",
+    "@types/node": "18.7.23",
     "@types/node-fetch": "2.6.1",
     "@vitest/coverage-c8": "^0.23.4",
-    "gatsby": "4.15.2",
-    "husky": "7.0.4",
-    "lint-staged": "12.5.0",
-    "prettier": "2.6.2",
-    "typescript": "4.8.3",
+    "gatsby": "4.24.1",
+    "husky": "8.0.1",
+    "lint-staged": "13.0.3",
+    "prettier": "2.7.1",
+    "typescript": "4.8.4",
     "vitest": "^0.23.4"
   },
   "peerDependencies": {
-    "gatsby": "^3.0.0 || ^4.0.0",
+    "gatsby": "^4",
     "gatsby-plugin-sharp": "*",
     "gatsby-transformer-sharp": "*"
   },
   "engines": {
-    "node": ">=12.13.0"
+    "node": ">=14"
   }
 }
