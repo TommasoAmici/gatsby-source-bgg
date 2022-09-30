@@ -9,3 +9,10 @@ tsconfig.tsbuildinfo
 .prettierrc
 .prettierignore
 dist/__tests__/
+.github/
+example/
+node_modules/
+renovate.json
+vitest.config.ts
+.gitignore
+.git-blame-ignore-revs
