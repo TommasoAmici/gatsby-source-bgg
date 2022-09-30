@@ -1,5 +1,6 @@
 import fetch from "node-fetch";
-import { mocked } from "ts-jest/utils";
+import { afterEach, expect, test, vi } from "vitest";
+
 import { fetchCollection, processData } from "../index";
 import {
   collectionAPIFixture,
@@ -11,8 +12,8 @@ import {
   thingBodyOneItem,
 } from "./fixtures.test";
 
-jest.mock("node-fetch");
-const mockedFetch = mocked(fetch, true);
+vi.mock("node-fetch");
+const mockedFetch = vi.mocked(fetch, true);
 
 afterEach(() => {
   mockedFetch.mockReset();

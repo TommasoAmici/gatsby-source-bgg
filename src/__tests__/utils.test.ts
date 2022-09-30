@@ -1,3 +1,4 @@
+import { expect, test } from "vitest";
 import { sleep, urlParamsFromObject } from "../utils";
 
 test("urlParamsFromObject to return a URL encoded string", () => {
