@@ -2,7 +2,16 @@
   "$schema": "https://json.schemastore.org/semantic-release.json",
   "branches": ["main"],
   "plugins": [
-    "@semantic-release/commit-analyzer",
+    [
+      "@semantic-release/commit-analyzer",
+      {
+        "preset": "conventionalcommits",
+        "releaseRules": [
+          { "type": "refactor", "release": "patch" },
+          { "scope": "no-release", "release": false }
+        ]
+      }
+    ],
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
     "@semantic-release/npm",
@@ -10,7 +19,7 @@
     [
       "@semantic-release/github",
       {
-        "assets": [{ "path": "dist", "label": "gatsby-source-bgg" }]
+        "assets": [{ "path": "dist" }]
       }
     ]
   ]
