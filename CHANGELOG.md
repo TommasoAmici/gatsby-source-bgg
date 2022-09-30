@@ -1,3 +1,14 @@
+## [2.0.0](https://github.com/TommasoAmici/gatsby-source-bgg/compare/v1.1.1...v2.0.0) (2022-09-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* updated plugin for gatsby 4
+
+### Features
+
+* updated plugin for gatsby 4 ([fc02a55](https://github.com/TommasoAmici/gatsby-source-bgg/commit/fc02a5547ad2735f29028772a80b678202d0d508))
+
 # Changelog
 
 All notable changes to this project will be documented in this file.
