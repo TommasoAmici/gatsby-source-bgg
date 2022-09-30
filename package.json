@@ -29,7 +29,8 @@
     "format": "prettier --write .",
     "prepare": "husky install",
     "test": "vitest",
-    "test:ci": "vitest run --coverage"
+    "test:ci": "vitest run --coverage",
+    "release": "semantic-release"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,md,html,css,yml,json}": "prettier --write"
@@ -40,6 +41,12 @@
     "node-fetch": "^2.6.1"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.6",
+    "@semantic-release/npm": "^9.0.1",
+    "@semantic-release/release-notes-generator": "^10.0.3",
     "@types/node": "18.7.23",
     "@types/node-fetch": "2.6.1",
     "@vitest/coverage-c8": "^0.23.4",
@@ -47,6 +54,7 @@
     "husky": "8.0.1",
     "lint-staged": "13.0.3",
     "prettier": "2.7.1",
+    "semantic-release": "^19.0.5",
     "typescript": "4.8.4",
     "vitest": "^0.23.4"
   },
