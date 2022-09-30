@@ -11,7 +11,7 @@ It creates links between entry types and assets (e.g. cover images) so they can 
 
 ## At a glance
 
-[![Node.js CI](https://github.com/TommasoAmici/gatsby-source-bgg/actions/workflows/build.yml/badge.svg)](https://github.com/TommasoAmici/gatsby-source-bgg/actions/workflows/build.yml) ![Test coverage](https://codecov.io/gh/TommasoAmici/gatsby-source-bgg/branch/main/graph/badge.svg?token=747LULM62Z) ![Minzipped bundle size](https://img.shields.io/bundlephobia/minzip/gatsby-source-bgg) ![npm version](https://img.shields.io/npm/v/gatsby-source-bgg)
+[![Node.js CI](https://github.com/TommasoAmici/gatsby-source-bgg/actions/workflows/build.yml/badge.svg)](https://github.com/TommasoAmici/gatsby-source-bgg/actions/workflows/build.yml) ![Minzipped bundle size](https://img.shields.io/bundlephobia/minzip/gatsby-source-bgg) ![npm version](https://img.shields.io/npm/v/gatsby-source-bgg)
 
 ## Getting started
 
