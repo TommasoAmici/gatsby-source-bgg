@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/TommasoAmici/gatsby-source-bgg/compare/v2.0.1...v2.0.2) (2022-10-01)
+
+
+### Bug Fixes
+
+* mark package as compatible with Gatsby v3 ([#234](https://github.com/TommasoAmici/gatsby-source-bgg/issues/234)) ([4bbc49e](https://github.com/TommasoAmici/gatsby-source-bgg/commit/4bbc49e75715bb3f047382de845ced09c8c9590b))
+
 ## [2.0.1](https://github.com/TommasoAmici/gatsby-source-bgg/compare/v2.0.0...v2.0.1) (2022-09-30)
 
 

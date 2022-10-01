@@ -1,6 +1,6 @@
 {
   "name": "gatsby-source-bgg",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Gatsby source plugin for pulling game collections from BoardGameGeek",
   "keywords": [
     "gatsby",
