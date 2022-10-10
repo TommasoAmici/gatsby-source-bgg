@@ -12,7 +12,7 @@ importers:
       '@semantic-release/release-notes-generator': 10.0.3
       '@types/node': 18.7.23
       '@types/node-fetch': 2.6.2
-      '@vitest/coverage-c8': 0.24.0
+      '@vitest/coverage-c8': 0.24.1
       conventional-changelog-conventionalcommits: 5.0.0
       fast-xml-parser: ^3.19.0
       gatsby: 4.24.4
@@ -41,7 +41,7 @@ importers:
       '@semantic-release/release-notes-generator': 10.0.3_semantic-release@19.0.5
       '@types/node': 18.7.23
       '@types/node-fetch': 2.6.2
-      '@vitest/coverage-c8': 0.24.0
+      '@vitest/coverage-c8': 0.24.1
       conventional-changelog-conventionalcommits: 5.0.0
       gatsby: 4.24.4_lxvcuwaaceetlrnfhu3spwy33e
       husky: 8.0.1
@@ -2737,11 +2737,11 @@ packages:
     dependencies:
       resolve: 1.22.1
 
-  /@vitest/coverage-c8/0.24.0:
-    resolution: {integrity: sha512-Ho5256BOrLnsJgEgE368ED17cr8rOAXrxvwpZ+XZUA4yAcMBxGAX08cCeG4dibmNVD2NE9Hcpd2foMZsTge3wA==}
+  /@vitest/coverage-c8/0.24.1:
+    resolution: {integrity: sha512-cOFHXRHB9WHtGgsHE4FX4Ef1c9Hon668RNJQOJvqSy1/1Y7zIYIBhFWmuFKLZRCMV4jGT5CRiuB9KtdNsOc3og==}
     dependencies:
       c8: 7.12.0
-      vitest: 0.24.0
+      vitest: 0.24.1
     transitivePeerDependencies:
       - '@edge-runtime/vm'
       - '@vitest/browser'
@@ -10202,6 +10202,10 @@ packages:
     resolution: {integrity: sha512-VxB1P8DUhpCC1j2WtKgFYpv3SwU7vtnfmG29cK7hXcqyD7lLiq6SYCVpDceoAT99mvTN+V8Ay4OdtZQbB72+Sw==}
     dev: true
 
+  /tinybench/2.3.0:
+    resolution: {integrity: sha512-zs1gMVBwyyG2QbVchYIbnabRhMOCGvrwZz/q+SV+LIMa9q5YDQZi2kkI6ZRqV2Bz7ba1uvrc7ieUoE4KWnGeKg==}
+    dev: true
+
   /tinypool/0.3.0:
     resolution: {integrity: sha512-NX5KeqHOBZU6Bc0xj9Vr5Szbb1j8tUHIeD18s41aDJaPeC5QTdEhK0SpdpUrZlj2nv5cctNcSjaKNanXlfcVEQ==}
     engines: {node: '>=14.0.0'}
@@ -10622,6 +10626,47 @@ packages:
       local-pkg: 0.4.2
       strip-literal: 0.4.2
       tinybench: 2.2.1
+      tinypool: 0.3.0
+      tinyspy: 1.0.2
+      vite: 3.1.4
+    transitivePeerDependencies:
+      - less
+      - sass
+      - stylus
+      - supports-color
+      - terser
+    dev: true
+
+  /vitest/0.24.1:
+    resolution: {integrity: sha512-NKkK1xnDIOOr42pKBfGQQl6b6IWdFVBpG6ZS1T+nUlJuqcOiZ7lxjVwHy9wrtTYpJ0BWww9y6bSGYXubD29Nag==}
+    engines: {node: '>=v14.16.0'}
+    hasBin: true
+    peerDependencies:
+      '@edge-runtime/vm': '*'
+      '@vitest/browser': '*'
+      '@vitest/ui': '*'
+      happy-dom: '*'
+      jsdom: '*'
+    peerDependenciesMeta:
+      '@edge-runtime/vm':
+        optional: true
+      '@vitest/browser':
+        optional: true
+      '@vitest/ui':
+        optional: true
+      happy-dom:
+        optional: true
+      jsdom:
+        optional: true
+    dependencies:
+      '@types/chai': 4.3.3
+      '@types/chai-subset': 1.3.3
+      '@types/node': 18.7.23
+      chai: 4.3.6
+      debug: 4.3.4
+      local-pkg: 0.4.2
+      strip-literal: 0.4.2
+      tinybench: 2.3.0
       tinypool: 0.3.0
       tinyspy: 1.0.2
       vite: 3.1.4
