@@ -12,7 +12,7 @@ importers:
       '@semantic-release/release-notes-generator': 10.0.3
       '@types/node': 18.7.23
       '@types/node-fetch': 2.6.2
-      '@vitest/coverage-c8': 0.24.1
+      '@vitest/coverage-c8': 0.24.3
       conventional-changelog-conventionalcommits: 5.0.0
       fast-xml-parser: ^3.19.0
       gatsby: 4.24.4
@@ -41,7 +41,7 @@ importers:
       '@semantic-release/release-notes-generator': 10.0.3_semantic-release@19.0.5
       '@types/node': 18.7.23
       '@types/node-fetch': 2.6.2
-      '@vitest/coverage-c8': 0.24.1
+      '@vitest/coverage-c8': 0.24.3
       conventional-changelog-conventionalcommits: 5.0.0
       gatsby: 4.24.4_lxvcuwaaceetlrnfhu3spwy33e
       husky: 8.0.1
@@ -2737,11 +2737,11 @@ packages:
     dependencies:
       resolve: 1.22.1
 
-  /@vitest/coverage-c8/0.24.1:
-    resolution: {integrity: sha512-cOFHXRHB9WHtGgsHE4FX4Ef1c9Hon668RNJQOJvqSy1/1Y7zIYIBhFWmuFKLZRCMV4jGT5CRiuB9KtdNsOc3og==}
+  /@vitest/coverage-c8/0.24.3:
+    resolution: {integrity: sha512-tAmMyHxWYnAwGeJb7QgTuEX8aLasTg4X1/6INobXa/7wYGEJ28CACFO5iLn1HzFVPoLvhsS3luQjiflGjjSMRQ==}
     dependencies:
       c8: 7.12.0
-      vitest: 0.24.1
+      vitest: 0.24.3
     transitivePeerDependencies:
       - '@edge-runtime/vm'
       - '@vitest/browser'
@@ -10594,6 +10594,47 @@ packages:
 
   /vitest/0.24.1:
     resolution: {integrity: sha512-NKkK1xnDIOOr42pKBfGQQl6b6IWdFVBpG6ZS1T+nUlJuqcOiZ7lxjVwHy9wrtTYpJ0BWww9y6bSGYXubD29Nag==}
+    engines: {node: '>=v14.16.0'}
+    hasBin: true
+    peerDependencies:
+      '@edge-runtime/vm': '*'
+      '@vitest/browser': '*'
+      '@vitest/ui': '*'
+      happy-dom: '*'
+      jsdom: '*'
+    peerDependenciesMeta:
+      '@edge-runtime/vm':
+        optional: true
+      '@vitest/browser':
+        optional: true
+      '@vitest/ui':
+        optional: true
+      happy-dom:
+        optional: true
+      jsdom:
+        optional: true
+    dependencies:
+      '@types/chai': 4.3.3
+      '@types/chai-subset': 1.3.3
+      '@types/node': 18.7.23
+      chai: 4.3.6
+      debug: 4.3.4
+      local-pkg: 0.4.2
+      strip-literal: 0.4.2
+      tinybench: 2.3.0
+      tinypool: 0.3.0
+      tinyspy: 1.0.2
+      vite: 3.1.4
+    transitivePeerDependencies:
+      - less
+      - sass
+      - stylus
+      - supports-color
+      - terser
+    dev: true
+
+  /vitest/0.24.3:
+    resolution: {integrity: sha512-aM0auuPPgMSstWvr851hB74g/LKaKBzSxcG3da7ejfZbx08Y21JpZmbmDYrMTCGhVZKqTGwzcnLMwyfz2WzkhQ==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
