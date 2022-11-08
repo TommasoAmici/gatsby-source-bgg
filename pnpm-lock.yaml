@@ -19,7 +19,7 @@ importers:
       gatsby-plugin-sharp: '*'
       gatsby-source-filesystem: ^4.24.0
       gatsby-transformer-sharp: '*'
-      husky: 8.0.1
+      husky: 8.0.2
       lint-staged: 13.0.3
       node-fetch: ^2.6.1
       prettier: 2.7.1
@@ -44,7 +44,7 @@ importers:
       '@vitest/coverage-c8': 0.25.0
       conventional-changelog-conventionalcommits: 5.0.0
       gatsby: 4.24.7_lxvcuwaaceetlrnfhu3spwy33e
-      husky: 8.0.1
+      husky: 8.0.2
       lint-staged: 13.0.3
       prettier: 2.7.1
       semantic-release: 19.0.5
@@ -6661,8 +6661,8 @@ packages:
     engines: {node: '>=12.20.0'}
     dev: true
 
-  /husky/8.0.1:
-    resolution: {integrity: sha512-xs7/chUH/CKdOCs7Zy0Aev9e/dKOMZf3K1Az1nar3tzlv0jfqnYtu235bstsWTmXOR0EfINrPa97yy4Lz6RiKw==}
+  /husky/8.0.2:
+    resolution: {integrity: sha512-Tkv80jtvbnkK3mYWxPZePGFpQ/tT3HNSs/sasF9P2YfkMezDl3ON37YN6jUUI4eTg5LcyVynlb6r4eyvOmspvg==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
