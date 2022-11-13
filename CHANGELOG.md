@@ -1,3 +1,14 @@
+## [3.0.0](https://github.com/TommasoAmici/gatsby-source-bgg/compare/v2.0.2...v3.0.0) (2022-11-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* node 18 is required for gatsby v5
+
+### Bug Fixes
+
+* node 18 is required for gatsby v5 ([6462cd9](https://github.com/TommasoAmici/gatsby-source-bgg/commit/6462cd9953d6506efa296396fc8ce417062ca8a2))
+
 ## [2.0.2](https://github.com/TommasoAmici/gatsby-source-bgg/compare/v2.0.1...v2.0.2) (2022-10-01)
 
 
