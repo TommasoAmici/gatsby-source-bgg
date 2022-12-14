@@ -1,3 +1,10 @@
+## [3.0.1](https://github.com/TommasoAmici/gatsby-source-bgg/compare/v3.0.0...v3.0.1) (2022-12-14)
+
+
+### Bug Fixes
+
+* **deps:** update gatsby monorepo ([4c2a7e9](https://github.com/TommasoAmici/gatsby-source-bgg/commit/4c2a7e9c395acc7d135157fb98b9639f396cbd29))
+
 ## [3.0.0](https://github.com/TommasoAmici/gatsby-source-bgg/compare/v2.0.2...v3.0.0) (2022-11-13)
 
 
