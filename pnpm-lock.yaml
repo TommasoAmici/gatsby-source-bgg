@@ -54,20 +54,20 @@ importers:
   example:
     specifiers:
       gatsby: 5.3.2
-      gatsby-plugin-image: 3.3.1
+      gatsby-plugin-image: 3.3.2
       gatsby-plugin-pnpm: 1.2.10
-      gatsby-plugin-sharp: 5.3.1
+      gatsby-plugin-sharp: 5.3.2
       gatsby-source-bgg: workspace:*
       gatsby-transformer-sharp: 5.3.1
       react: 18.2.0
       react-dom: 18.2.0
     dependencies:
       gatsby: 5.3.2_qyabkb5h6b7mifciv426iu4uca
-      gatsby-plugin-image: 3.3.1_oedz7erqnxgswffvimdgc6rupm
+      gatsby-plugin-image: 3.3.2_43p3pelfybryklbcteucsxv4ey
       gatsby-plugin-pnpm: 1.2.10_gatsby@5.3.2
-      gatsby-plugin-sharp: 5.3.1_es3dempfwzbrmcddeoic2l7isy
+      gatsby-plugin-sharp: 5.3.2_es3dempfwzbrmcddeoic2l7isy
       gatsby-source-bgg: link:..
-      gatsby-transformer-sharp: 5.3.1_bgdrtdpi5folifsi6kuwtgc5su
+      gatsby-transformer-sharp: 5.3.1_mnn4gee2hncthpcub6ekcdhdn4
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
 
@@ -5883,8 +5883,8 @@ packages:
       '@parcel/transformer-js': 2.8.1_@parcel+core@2.8.1
       '@parcel/transformer-json': 2.8.1_@parcel+core@2.8.1
 
-  /gatsby-plugin-image/3.3.1_oedz7erqnxgswffvimdgc6rupm:
-    resolution: {integrity: sha512-Le+JW62ofBFhutL4LJW3ozo9UKYDH8HFjswmsDPz8fXz2EFcGZWGC5U9ynEEyd6ac2dFHK3nS5DHGBYrCwZw3g==}
+  /gatsby-plugin-image/3.3.2_43p3pelfybryklbcteucsxv4ey:
+    resolution: {integrity: sha512-8BzRBvCTbAZYSO661d+76tbxXEUgGMnGXGzDYXPfwROn3BdtP953D+w+dGdZi2AtwaSxsoZ33LR1vBdBl9pFjg==}
     peerDependencies:
       '@babel/core': ^7.12.3
       gatsby: ^5.0.0-next
@@ -5911,7 +5911,7 @@ packages:
       fs-extra: 10.1.0
       gatsby: 5.3.2_qyabkb5h6b7mifciv426iu4uca
       gatsby-core-utils: 4.3.1
-      gatsby-plugin-sharp: 5.3.1_es3dempfwzbrmcddeoic2l7isy
+      gatsby-plugin-sharp: 5.3.2_es3dempfwzbrmcddeoic2l7isy
       gatsby-plugin-utils: 4.3.1_es3dempfwzbrmcddeoic2l7isy
       objectFitPolyfill: 2.3.5
       prop-types: 15.8.1
@@ -5983,8 +5983,8 @@ packages:
       - supports-color
     dev: false
 
-  /gatsby-plugin-sharp/5.3.1_es3dempfwzbrmcddeoic2l7isy:
-    resolution: {integrity: sha512-HzLd/HuZQg6hj/Ll3vsFByDPps9Ucj5HUNiiraqa0gi9T1rmNv/i8htQyLB3TCk6Qj23lGtqr32eteQg9trYGQ==}
+  /gatsby-plugin-sharp/5.3.2_es3dempfwzbrmcddeoic2l7isy:
+    resolution: {integrity: sha512-juMJFdVwB/b9Z6W5Crr1tizZ4aJkEUcgsKjQD6q4EnRc7RnRl9kGTYxOiAyxrVHmpb5KW/ixVA6YHukB6Pcn9g==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       gatsby: ^5.0.0-next
@@ -6169,7 +6169,7 @@ packages:
       - supports-color
     dev: false
 
-  /gatsby-transformer-sharp/5.3.1_bgdrtdpi5folifsi6kuwtgc5su:
+  /gatsby-transformer-sharp/5.3.1_mnn4gee2hncthpcub6ekcdhdn4:
     resolution: {integrity: sha512-f4IkxCyceaSNJnxaVtGtyjObPWloNsFThY0cE72RhVhW6QQIZaE0hkHVx7pIsDSTgVxQPB8K4t1AAXPBuUyfHw==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
@@ -6181,7 +6181,7 @@ packages:
       common-tags: 1.8.2
       fs-extra: 10.1.0
       gatsby: 5.3.2_qyabkb5h6b7mifciv426iu4uca
-      gatsby-plugin-sharp: 5.3.1_es3dempfwzbrmcddeoic2l7isy
+      gatsby-plugin-sharp: 5.3.2_es3dempfwzbrmcddeoic2l7isy
       gatsby-plugin-utils: 4.3.1_es3dempfwzbrmcddeoic2l7isy
       probe-image-size: 7.2.3
       semver: 7.3.8
