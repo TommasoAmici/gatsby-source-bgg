@@ -42,8 +42,8 @@ importers:
         specifier: 18.15.11
         version: 18.15.11
       '@types/node-fetch':
-        specifier: 2.6.2
-        version: 2.6.2
+        specifier: 2.6.3
+        version: 2.6.3
       '@vitest/coverage-c8':
         specifier: 0.29.7
         version: 0.29.7(vitest@0.29.7)
@@ -2539,7 +2539,7 @@ packages:
     peerDependencies:
       node-fetch: '2'
     dependencies:
-      '@types/node-fetch': 2.6.2
+      '@types/node-fetch': 2.6.3
       node-fetch: 2.6.9
 
   /@turist/time@0.0.2:
@@ -2649,8 +2649,8 @@ packages:
     dependencies:
       '@types/node': 18.15.11
 
-  /@types/node-fetch@2.6.2:
-    resolution: {integrity: sha512-DHqhlq5jeESLy19TYhLakJ07kNumXWjcDdxXsLUMJZ6ue8VZJj4kLPQVE/2mdHh3xZziNF1xppu5lwmS53HR+A==}
+  /@types/node-fetch@2.6.3:
+    resolution: {integrity: sha512-ETTL1mOEdq/sxUtgtOhKjyB2Irra4cjxksvcMUR5Zr4n+PxVhsCD9WS46oPbHL3et9Zde7CNRr+WUNlcHvsX+w==}
     dependencies:
       '@types/node': 18.15.11
       form-data: 3.0.1
