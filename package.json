@@ -51,7 +51,7 @@
     "@types/node-fetch": "2.6.3",
     "@vitest/coverage-c8": "0.30.0",
     "conventional-changelog-conventionalcommits": "5.0.0",
-    "gatsby": "5.8.1",
+    "gatsby": "5.9.0",
     "husky": "8.0.3",
     "lint-staged": "13.2.1",
     "prettier": "2.8.7",
