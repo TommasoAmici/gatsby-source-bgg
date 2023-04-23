@@ -54,7 +54,7 @@
     "gatsby": "5.9.0",
     "husky": "8.0.3",
     "lint-staged": "13.2.1",
-    "prettier": "2.8.7",
+    "prettier": "2.8.8",
     "semantic-release": "19.0.5",
     "typescript": "5.0.4",
     "vitest": "0.30.1"
