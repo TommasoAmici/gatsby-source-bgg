@@ -48,7 +48,7 @@
     "@semantic-release/npm": "9.0.2",
     "@semantic-release/release-notes-generator": "10.0.3",
     "@types/node": "18.16.1",
-    "@types/node-fetch": "2.6.3",
+    "@types/node-fetch": "2.6.4",
     "@vitest/coverage-c8": "0.31.0",
     "conventional-changelog-conventionalcommits": "5.0.0",
     "gatsby": "5.9.1",
