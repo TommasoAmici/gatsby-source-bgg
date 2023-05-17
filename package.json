@@ -49,7 +49,7 @@
     "@semantic-release/release-notes-generator": "10.0.3",
     "@types/node": "18.16.1",
     "@types/node-fetch": "2.6.4",
-    "@vitest/coverage-c8": "0.31.0",
+    "@vitest/coverage-c8": "0.31.1",
     "conventional-changelog-conventionalcommits": "5.0.0",
     "gatsby": "5.10.0",
     "husky": "8.0.3",
@@ -57,7 +57,7 @@
     "prettier": "2.8.8",
     "semantic-release": "19.0.5",
     "typescript": "5.0.4",
-    "vitest": "0.31.0"
+    "vitest": "0.31.1"
   },
   "peerDependencies": {
     "gatsby": "3.x || 4.x || 5.x",
