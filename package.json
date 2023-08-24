@@ -50,7 +50,7 @@
     "@types/node": "18.17.9",
     "@types/node-fetch": "2.6.4",
     "@vitest/coverage-c8": "0.31.4",
-    "conventional-changelog-conventionalcommits": "5.0.0",
+    "conventional-changelog-conventionalcommits": "6.1.0",
     "gatsby": "5.12.1",
     "husky": "8.0.3",
     "lint-staged": "13.3.0",
