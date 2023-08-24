@@ -47,7 +47,7 @@
     "@semantic-release/github": "8.1.0",
     "@semantic-release/npm": "9.0.2",
     "@semantic-release/release-notes-generator": "10.0.3",
-    "@types/node": "18.17.9",
+    "@types/node": "18.17.11",
     "@types/node-fetch": "2.6.4",
     "@vitest/coverage-c8": "0.31.4",
     "conventional-changelog-conventionalcommits": "5.0.0",
