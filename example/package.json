@@ -7,7 +7,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "5.12.6",
+    "gatsby": "5.12.7",
     "gatsby-plugin-image": "3.12.1",
     "gatsby-plugin-pnpm": "1.2.10",
     "gatsby-plugin-sharp": "5.12.1",
