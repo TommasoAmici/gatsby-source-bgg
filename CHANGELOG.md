@@ -1,3 +1,10 @@
+## [3.0.3](https://github.com/TommasoAmici/gatsby-source-bgg/compare/v3.0.2...v3.0.3) (2024-05-04)
+
+
+### Bug Fixes
+
+* **deps:** update react monorepo to v18.3.1 ([c573e31](https://github.com/TommasoAmici/gatsby-source-bgg/commit/c573e319040a544ce374ff9f4164dde297df82e8))
+
 ## [3.0.2](https://github.com/TommasoAmici/gatsby-source-bgg/compare/v3.0.1...v3.0.2) (2024-05-04)
 
 
