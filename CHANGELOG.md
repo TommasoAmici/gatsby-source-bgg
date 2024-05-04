@@ -1,3 +1,10 @@
+## [3.0.2](https://github.com/TommasoAmici/gatsby-source-bgg/compare/v3.0.1...v3.0.2) (2024-05-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency node-fetch to v2.7.0 ([f004bc7](https://github.com/TommasoAmici/gatsby-source-bgg/commit/f004bc7729672377e966bfa8ba2e12ca31f6fa5b))
+
 ## [3.0.1](https://github.com/TommasoAmici/gatsby-source-bgg/compare/v3.0.0...v3.0.1) (2022-12-14)
 
 
