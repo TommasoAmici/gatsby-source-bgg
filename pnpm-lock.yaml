@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       fast-xml-parser:
-        specifier: ^3.19.0
-        version: 3.21.1
+        specifier: ^4.0.0
+        version: 4.0.0
       gatsby-plugin-sharp:
         specifier: '*'
         version: 4.24.0(gatsby@5.13.4)(graphql@15.8.0)
@@ -5892,8 +5892,8 @@ packages:
   /fast-levenshtein@2.0.6:
     resolution: {integrity: sha512-DCXu6Ifhqcks7TZKY3Hxp3y6qphY5SJZmrWMDrKcERSOXWQdMhU9Ig/PYrzyw/ul9jOIyh0N4M0tbC5hodg8dw==}
 
-  /fast-xml-parser@3.21.1:
-    resolution: {integrity: sha512-FTFVjYoBOZTJekiUsawGsSYV9QL0A+zDYCRj7y34IO6Jg+2IMYEtQa+bbictpdpV8dHxXywqU7C0gRDEOFtBFg==}
+  /fast-xml-parser@4.0.0:
+    resolution: {integrity: sha512-6M/FCTS8IlbR1T9OrDIoPkDtSpq1MXz2hg7eTXbsEVRSfEqCCpLUT93jO1p2Pdxpz9BFdW7SHWCZhIDw7wWD/Q==}
     hasBin: true
     dependencies:
       strnum: 1.0.5

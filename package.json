@@ -36,7 +36,7 @@
     "*.{js,jsx,ts,tsx,md,html,css,yml,json}": "prettier --write"
   },
   "dependencies": {
-    "fast-xml-parser": "^3.19.0",
+    "fast-xml-parser": "^4.0.0",
     "gatsby-source-filesystem": "^5.0.0",
     "node-fetch": "^2.6.1"
   },
