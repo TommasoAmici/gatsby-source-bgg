@@ -7,12 +7,12 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "5.13.4",
-    "gatsby-plugin-image": "3.13.1",
+    "gatsby": "5.16.1",
+    "gatsby-plugin-image": "3.16.0",
     "gatsby-plugin-pnpm": "1.2.10",
-    "gatsby-plugin-sharp": "5.13.1",
+    "gatsby-plugin-sharp": "5.16.0",
     "gatsby-source-bgg": "workspace:*",
-    "gatsby-transformer-sharp": "5.13.1",
+    "gatsby-transformer-sharp": "5.16.0",
     "react": "18.3.1",
     "react-dom": "18.3.1"
   }
