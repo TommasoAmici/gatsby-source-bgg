@@ -57,7 +57,7 @@
     "prettier": "2.8.8",
     "semantic-release": "19.0.5",
     "typescript": "5.4.5",
-    "vitest": "0.31.4"
+    "vitest": "3.2.6"
   },
   "peerDependencies": {
     "gatsby": "3.x || 4.x || 5.x",
